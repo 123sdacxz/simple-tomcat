@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<web-app>
+    <servlet>
+        <servlet-name>use</servlet-name>
+        <servlet-class>zyp.myhttpServlet</servlet-class>
+    </servlet>
+    <mapping>
+        <servlet-name>use</servlet-name>
+        <servlet-url>/user</servlet-url>
+    </mapping>
+</web-app>
